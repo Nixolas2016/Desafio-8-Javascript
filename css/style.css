@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Saira', sans-serif;
+}
+
+body {
+    background-color: rgb(35, 37, 39);
+    margin: 0;
+    padding: 0;
+    /*background: url(/img/GTA5.jpg);*/
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+section {
+    width: 90%;
+}
+
+.titulo{
+    color: yellowgreen;
+    text-align: center;
+}
+
+.sub-titulo{
+    color: yellowgreen;
+    text-align: start;
+    margin: 20px;
+}
+
+.tem{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.card {
+    background-color: white;
+    transition: 1s;
+}
+
+p {
+    color: black;
+}
+
+.product {
+    color: aliceblue;
+}
+
+.precio{
+    color: rgb(38, 189, 24);
+}
+
+.titulo-end{
+    color: yellowgreen;
+    text-align: center;
+}
+
+.solicitar{
+    color: yellowgreen;
+}
+
+.text-confirm{
+    color: white;
+}
+
+.carro{
+    padding: 20%;
+    margin: 30%;
+}
+
+.añadir{
+    border: hidden;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: brown;
+    color: white;
+    
+}
+.nav-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#seccion-productos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
